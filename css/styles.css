@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -15,6 +24,32 @@ body {
   --color-cloud: #f4f4fd;
   --header-hover-color: #404bbf;
 }
+/* non-style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* container */
+.container {
+  width: 1158;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
 /* nav */
 .list {
   list-style: none;
@@ -24,6 +59,7 @@ body {
   text-decoration: none;
 }
 .logostyles {
+  margin-left: 156px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -42,6 +78,8 @@ body {
   color: #f4f4fd;
 }
 /* section styles */
+.section {
+}
 .secstylesup {
   background-color: #2e2f42;
 }
@@ -56,6 +94,18 @@ body {
 .sectionfour {
   background-color: #ffffff;
 }
+/* header */
+.header {
+  height: 72px;
+  display: flex;
+  display: inline;
+}
+.header-adress {
+  display: inline;
+  display: flex;
+  align-items: center;
+}
+height: 72px;
 /* Nav */
 .navstyles {
   font-style: normal;
@@ -80,6 +130,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .navstylescontact:hover {
   color: #404bbf;
 }
