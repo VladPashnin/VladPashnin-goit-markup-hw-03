@@ -137,11 +137,19 @@ img {
   display: flex;
   align-items: center;
 }
+.auth-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.auth-nav .item + .item {
+  margin-left: 40px;
+}
 
-.navstylescontact:hover {
+.nav-styles-contact:hover {
   color: #404bbf;
 }
-.navstylescontact:focus {
+.nav-styles-contact:focus {
   color: #404bbf;
 }
 .nav-margin .item + .item {
@@ -149,8 +157,6 @@ img {
 }
 .nav-margin .item {
   display: block;
-
-  background-color: #31d0aa;
   padding-top: 24px;
   padding-bottom: 24px;
 }
