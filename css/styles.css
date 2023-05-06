@@ -152,8 +152,8 @@ img {
 .nav-styles-contact:focus {
   color: #404bbf;
 }
-.nav-margin .item + .item {
-  margin-left: 40px;
+.nav-margin .item:not(:last-child) {
+  margin-right: 40px;
 }
 .nav-margin .item {
   display: block;
