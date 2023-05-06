@@ -41,7 +41,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 /* container */
 .container {
   width: 1158px;
@@ -101,9 +105,7 @@ img {
 } */
 
 /* Nav */
-.list {
-  list-style: none;
-}
+
 .navstyles {
   font-style: normal;
   font-weight: 500;
@@ -118,9 +120,7 @@ img {
 .navstyles:focus {
   color: #404bbf;
 }
-.nav-styles-contact .item + .item {
-  margin-left: 41px;
-}
+
 .nav-styles-contact {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -130,8 +130,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.nav-styles-contact .item + .item {
+  margin-left: 40px;
+}
 .main-nav {
   display: flex;
+  align-items: center;
 }
 
 .navstylescontact:hover {
