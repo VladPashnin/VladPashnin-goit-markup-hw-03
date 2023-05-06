@@ -79,9 +79,25 @@ img {
   color: #f4f4fd;
 }
 /* section styles */
+/* sectio 1 */
 .section_one {
   padding: 188px 0 188px;
 }
+/* section 2 */
+.section-flex {
+  display: flex;
+}
+.section-padding {
+  padding: 120px 0 120px;
+}
+.sectio-gap {
+  margin-right: 24px;
+}
+.sec-width {
+  margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
+}
+
 .secstylesup {
   background-color: #2e2f42;
 }
@@ -90,9 +106,11 @@ img {
   background-color: #2e2f42;
   text-align: left;
 }
+/* section 3 */
 .sectionthree {
   background-color: #f4f4fd;
 }
+/* section 4 */
 .sectionfour {
   background-color: #ffffff;
 }
