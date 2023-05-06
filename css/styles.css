@@ -258,6 +258,8 @@ img {
   background-color: #404bbf;
 }
 .buttonportfolio {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;
@@ -266,12 +268,15 @@ img {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
+  border-radius: 4px;
 }
 .buttonportfoliohover:hover {
+  border: 1px solid;
   color: #ffffff;
   background-color: #404bbf;
 }
 .buttonportfoliofocus:focus {
+  border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -309,4 +314,14 @@ img {
   background-color: #2e2f42;
   text-align: left;
   padding: 100px;
+}
+/* portfolio-section */
+.portfolio-section {
+  padding: 96px 0 120px;
+}
+.portfolio-flex {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
