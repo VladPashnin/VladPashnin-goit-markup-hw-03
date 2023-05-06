@@ -231,7 +231,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 /* button */
 
@@ -288,7 +287,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 
 .footertext {
@@ -319,9 +317,23 @@ img {
 .portfolio-section {
   padding: 96px 0 120px;
 }
-.portfolio-flex {
+.portfolio-button {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+.portfolio-flex {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-h {
+  margin-bottom: 8px;
+}
+.portfolio-li {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
