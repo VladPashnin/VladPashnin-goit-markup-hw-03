@@ -90,7 +90,7 @@ img {
 .section-padding {
   padding: 120px 0 120px;
 }
-.sectio-gap {
+.sectio-gap:not(:last-child) {
   margin-right: 24px;
 }
 .sec-width {
@@ -193,10 +193,8 @@ img {
 .nav-styles-contact:focus {
   color: #404bbf;
 }
-.nav-margin .item:not(:last-child) {
-  margin-right: 40px;
-}
-.nav-margin .item {
+
+.nav-margin {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
