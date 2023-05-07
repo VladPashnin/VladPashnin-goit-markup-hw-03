@@ -121,7 +121,12 @@ img {
 .width {
   width: calc((100% - 48px) / 3);
 }
+
 /* section 4 */
+.sec-four-zize {
+  padding: 120px 0 120px;
+  background-color: #d9d9d9;
+}
 .sectionfour .padding {
   background-color: #ffffff;
 }
@@ -131,7 +136,6 @@ img {
 }
 .padding {
   display: flex;
-  padding: 120px 0 120px;
 }
 .name {
   padding: 32px 16px;
@@ -144,7 +148,9 @@ img {
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
 }
-
+.sec-four-h {
+  margin-bottom: 8px;
+}
 /* Nav */
 
 .navstyles {
