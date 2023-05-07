@@ -112,10 +112,11 @@ img {
 .margin-right:not(:last-child) {
   margin-right: 24px;
 }
-
+.padsec {
+  padding-bottom: 120px;
+}
 .item {
   display: flex;
-  padding-bottom: 120px;
 }
 .width {
   width: calc((100% - 48px) / 3);
