@@ -298,7 +298,9 @@ img {
   text-align: left;
 }
 /* footer */
-
+.footerzize {
+  padding: 100px 0;
+}
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
@@ -310,7 +312,6 @@ img {
   height: 312px;
   background-color: #2e2f42;
   text-align: left;
-  padding: 100px;
 }
 /* portfolio-section */
 .portfolio-section {
