@@ -95,6 +95,8 @@ img {
 }
 .sec-width {
   margin-bottom: 8px;
+}
+.sec-two-with {
   width: calc((100% - 72px) / 4);
 }
 /*  */
